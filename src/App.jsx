@@ -4,7 +4,7 @@ import MiddleContent from "./Components/MiddleContent";
 
 export default function App() {
   return (
-    <main className="w-full flex justify-center">
+    <main className="flex flex-col justify-center">
       {/* <NavBar /> */}
       <MiddleContent />
       <Footer />
