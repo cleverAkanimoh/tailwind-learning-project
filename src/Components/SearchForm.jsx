@@ -3,10 +3,15 @@ import { BsXCircle, BsSearch, BsHouse } from "react-icons/bs";
 import { VscLocation } from "react-icons/vsc";
 
 export default function () {
+	const [value, setValue] = useState({
+		position: "",
+		country: "",
+		location: "",
+	});
 	const [clearValue, setClearValue] = useState("");
 
-	const emptyInputValue = (field) => {
-
+	const clearAllInputValue = () => {
+		
 	}
 
 	return (
@@ -18,10 +23,10 @@ export default function () {
 						type="text"
 						className="border-none ml-1 mr-2 text-blue-400"
 						name="position"
-						value="value here"
+						value={value.position}
 						placeholder="Position"
 					/>
-					<BsXCircle className="cursor-pointer text-gray-600" />
+					<BsXCircle onClick={clearAllInputValue} className="cursor-pointer text-gray-600" />
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
@@ -30,9 +35,10 @@ export default function () {
 						type="text"
 						className="border-none ml-1 mr-2 text-blue-400"
 						name="country"
+						value={value}
 						placeholder="Country"
 					/>
-					<BsXCircle className="cursor-pointer text-gray-600" />
+					<BsXCircle onClick={clearAllInputValue} className="cursor-pointer text-gray-600" />
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
@@ -41,9 +47,10 @@ export default function () {
 						type="text"
 						className="border-none ml-1 mr-2 text-blue-400"
 						name="location"
+						value={value}
 						placeholder="Location"
 					/>
-					<BsXCircle className="cursor-pointer text-gray-600" />
+					<BsXCircle onClick={clearAllInputValue} className="cursor-pointer text-gray-600" />
 				</div>
 
 				<button className="bg-blue-400 text-white w-20 h-8 md:w-28 md:h-12 rounded">
