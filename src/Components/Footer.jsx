@@ -1,7 +1,5 @@
 export default function() {
     return (
-      <footer>
-        footer
-      </footer>
+      <footer></footer>
     )
   }

@@ -3,7 +3,6 @@ export default function () {
     <article>
       <form>
         <div>
-
         </div>
         <div></div>
         <div></div>
