@@ -3,7 +3,7 @@ import { VscLocation } from "react-icons/vsc";
 
 export default function () {
 	return (
-		<article className="lg:ml-20 lg:mr-20 lg:p-10 md:m-6 lg:m-10 m-3 p-6 bg-blue-100 bg-opacity-25 rounded">
+		<article className="lg:w-10/12 lg:p-10 lg:m-10 m-3 p-6 bg-blue-100 bg-opacity-25 rounded">
 			<div className="bg-white bg-opacity-25 lg:justify-between p-6 md:flex-row flex flex-col items-center justify-center rounded">
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
 					<BsSearch className=" text-gray-600" />
