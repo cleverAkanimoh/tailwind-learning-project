@@ -1,7 +1,14 @@
+import { useState } from "react";
 import { BsXCircle, BsSearch, BsHouse } from "react-icons/bs";
 import { VscLocation } from "react-icons/vsc";
 
 export default function () {
+	const [clearValue, setClearValue] = useState("");
+
+	const emptyInputValue = (field) => {
+
+	}
+
 	return (
 		<article className="w-12/12 lg:w-2/2 lg:p-10 p-6 bg-blue-100 bg-opacity-50 rounded">
 			<div className="bg-white bg-opacity-25 lg:justify-between p-6 md:flex-row flex flex-col items-center justify-center rounded">
