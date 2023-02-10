@@ -4,8 +4,8 @@ import { VscMenu } from "react-icons/vsc";
 export default function () {
     const [visibility, setVisibility] = useState(false)
 
-    const show = "translate-y-full mt-4 md:mt-0 md:flex justify-center items-center"
-    const hidden = "translate-y-0 md:mt-0 md:flex justify-center items-center"
+    const show = "translate-y-0 transition mt-4 md:mt-0 md:flex justify-center items-center"
+    const hidden = "translate-y-full hidden transition md:mt-0 md:flex justify-center items-center"
 
     const toggleNavList = () => {
         setVisibility(prevState => !prevState)
