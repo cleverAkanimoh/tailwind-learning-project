@@ -79,7 +79,7 @@ export default function () {
 					</button>
 				</div>
 
-				<button className="bg-blue-400 text-white w-20 h-8 md:w-28 md:h-12 rounded">
+				<button className="hover:bg-sky-700  bg-blue-400 text-white w-20 h-8 md:w-28 md:h-12 rounded">
 					search
 				</button>
 			</div>
