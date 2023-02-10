@@ -25,13 +25,13 @@ export default function () {
 	}
 
 	return (
-		<article className="lg:w-2/2 mt-4 lg:p-10 p-6 bg-blue-100 bg-opacity-50 rounded border">
+		<article className="lg:w-2/2 mt-4 lg:p-10 p-6 bg-blue-100 bg-opacity-50 rounded">
 			<div className="bg-white bg-opacity-25 lg:justify-between p-6 md:flex-row flex flex-col items-center justify-center rounded">
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
 					<BsSearch className=" text-gray-600" />
 					<input
 						type="text"
-						className="border-none ml-1 mr-2 text-blue-400"
+						className="border-none ml-1 mr-2 text-blue-400 rounded"
 						name="position"
 						value={value.position}
 						placeholder="Position"

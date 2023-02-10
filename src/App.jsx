@@ -4,7 +4,7 @@ import NavBar from "./Components/NavBar";
 
 export default function App() {
   return (
-    <main className="w-full flex flex-col justify-center items-center">
+    <main className="flex flex-col justify-center items-center">
       <NavBar />
       <MiddleContent />
       <Footer />
