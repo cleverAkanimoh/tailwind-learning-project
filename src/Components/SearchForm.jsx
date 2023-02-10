@@ -4,14 +4,24 @@ import { VscLocation } from "react-icons/vsc";
 
 export default function () {
 	const [value, setValue] = useState({
-		position: "",
-		country: "",
-		location: "",
+		position: "UI design",
+		country: "name it",
+		location: "USA",
 	});
-	const [clearValue, setClearValue] = useState("");
 
-	const clearAllInputValue = () => {
-		
+	const updateInputValue = (e) => {
+		const { name, value } = e.target
+		setValue(prevValue => ({
+			...prevValue,
+			[name]: value
+		}))
+	}
+	const clearAllInputValue = (e) => {
+		const { id } = e.target
+		setValue(prevValue => ({
+			...prevValue,
+			[id]: ""
+		}))
 	}
 
 	return (
@@ -25,8 +35,9 @@ export default function () {
 						name="position"
 						value={value.position}
 						placeholder="Position"
+						onChange={updateInputValue}
 					/>
-					<BsXCircle onClick={clearAllInputValue} className="cursor-pointer text-gray-600" />
+					<BsXCircle onClick={clearAllInputValue} id="position" className="cursor-pointer text-gray-600" />
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
@@ -35,10 +46,11 @@ export default function () {
 						type="text"
 						className="border-none ml-1 mr-2 text-blue-400"
 						name="country"
-						value={value}
+						value={value.country}
 						placeholder="Country"
+						onChange={updateInputValue}
 					/>
-					<BsXCircle onClick={clearAllInputValue} className="cursor-pointer text-gray-600" />
+					<BsXCircle onClick={clearAllInputValue} id="country" className="cursor-pointer text-gray-600" />
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
@@ -47,10 +59,11 @@ export default function () {
 						type="text"
 						className="border-none ml-1 mr-2 text-blue-400"
 						name="location"
-						value={value}
+						value={value.location}
 						placeholder="Location"
+						onChange={updateInputValue}
 					/>
-					<BsXCircle onClick={clearAllInputValue} className="cursor-pointer text-gray-600" />
+					<BsXCircle onClick={clearAllInputValue} id="location" className="cursor-pointer text-gray-600" />
 				</div>
 
 				<button className="bg-blue-400 text-white w-20 h-8 md:w-28 md:h-12 rounded">
