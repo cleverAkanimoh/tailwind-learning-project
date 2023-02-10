@@ -3,6 +3,7 @@ import { VscMenu } from "react-icons/vsc";
 
 export default function () {
     const [visibility, setVisibility] = useState("hidden")
+    
     return (
         <nav className="w-full sm:p-5 md:p-8 p-3 flex items-center justify-center capitalize">
             <div className="w-full md:flex lg:w-10/12">
