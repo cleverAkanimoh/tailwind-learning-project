@@ -1,9 +1,11 @@
-import SearchForm from "./SearchForm";
+// import SearchForm from "./SearchForm";
+import AvailableWorks from "./availableWorks";
 
 export default function() {
     return (
       <section>
-        <SearchForm />
+        {/* <SearchForm /> */}
+        <AvailableWorks works={works} />
       </section>
     )
   }
