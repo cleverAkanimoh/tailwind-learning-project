@@ -18,10 +18,10 @@ export default function ({ works }) {
                                 <span>{location}</span>
                             </div>
 
-                            <div>
+                            <div className="flex flex-col">
                                 <p>{desc}</p>
                                 <span>{companyName}</span>
-                                <a href={url}></a>
+                                <a href={url}>Apply Now</a>
                             </div>
                         </div>
                     )
