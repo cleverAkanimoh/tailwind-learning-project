@@ -17,7 +17,7 @@ export default function () {
 		}))
 	}
 	const clearAllInputValue = (e) => {
-		const { id } = e.target
+		const { id } = e.currentTarget
 		setValue(prevValue => ({
 			...prevValue,
 			[id]: ""
@@ -25,7 +25,7 @@ export default function () {
 	}
 
 	return (
-		<article className="w-full lg:w-2/2 lg:p-10 p-6 bg-blue-100 bg-opacity-50 rounded">
+		<article className="lg:w-2/2 mt-4 lg:p-10 p-6 bg-blue-100 bg-opacity-50 rounded border">
 			<div className="bg-white bg-opacity-25 lg:justify-between p-6 md:flex-row flex flex-col items-center justify-center rounded">
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
 					<BsSearch className=" text-gray-600" />
@@ -37,7 +37,9 @@ export default function () {
 						placeholder="Position"
 						onChange={updateInputValue}
 					/>
-					<BsXCircle onClick={clearAllInputValue} id="position" className="cursor-pointer text-gray-600" />
+					<button onClick={clearAllInputValue} id="position" className="cursor-pointer text-gray-600">
+						<BsXCircle />
+					</button>
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
@@ -50,7 +52,13 @@ export default function () {
 						placeholder="Country"
 						onChange={updateInputValue}
 					/>
-					<BsXCircle onClick={clearAllInputValue} id="country" className="cursor-pointer text-gray-600" />
+					<button
+						onClick={clearAllInputValue}
+						id="country"
+						className="cursor-pointer text-gray-600"
+					>
+						<BsXCircle />
+					</button>
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
@@ -63,7 +71,12 @@ export default function () {
 						placeholder="Location"
 						onChange={updateInputValue}
 					/>
-					<BsXCircle onClick={clearAllInputValue} id="location" className="cursor-pointer text-gray-600" />
+					<button
+						onClick={clearAllInputValue}
+						id="location"
+						className="cursor-pointer text-gray-600">
+						<BsXCircle />
+					</button>
 				</div>
 
 				<button className="bg-blue-400 text-white w-20 h-8 md:w-28 md:h-12 rounded">
