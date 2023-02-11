@@ -1,13 +1,13 @@
 import { BsClock } from "react-icons/bs"
 export default function ({ works }) {
     return (
-        <article className="p-2 pt-5 mt-5 mb-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid gap-6 place-items-center">
+        <article className="p-2 pt-5 mt-5 mb-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 grid gap-6 place-items-center">
             {
                 works.map(work => {
                     const { id, title, location, desc, companyName, url } = work;
 
                     return (
-                        <div key={id} className="w-11/12 lg:w-64 border p-3 rounded shadow">
+                        <div key={id} className="w-full md:w-64 border p-3 rounded shadow">
                             <div className="border-b-2 pb-2 mb-2">
                                 <div className="flex justify-between items-center">
                                     <h2 className="font-extrabold text-black">{title}</h2>

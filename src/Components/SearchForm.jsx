@@ -16,6 +16,7 @@ export default function () {
 			[name]: value
 		}))
 	}
+	
 	const clearAllInputValue = (e) => {
 		const { id } = e.currentTarget
 		setValue(prevValue => ({
@@ -25,7 +26,7 @@ export default function () {
 	}
 
 	return (
-		<article className="lg:w-full mt-4 lg:p-10 lg:pr-20 lg:pl-20 md:p-10 p-5 sm:p-10 bg-gray-200 bg-opacity-50 rounded">
+		<article className="w-full mt-4 lg:p-10 p-5 bg-gray-200 bg-opacity-50 rounded">
 			<div className="bg-white bg-opacity-25 lg:justify-between p-3 md:p-3 lg:p-4 md:flex-row flex flex-col items-center justify-center rounded">
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
 					<BsSearch className=" text-gray-600" />
