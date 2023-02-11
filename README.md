@@ -2,4 +2,4 @@
 
 + this project incorporates tailwindcss for styling.
 - configures were done to accomodate tailwindcss framework.
-* view active link <a href="https://cleverakanimoh.github.io/tailwind-learning-project/">here</a>
+* view active link <a href="https://cleverakanimoh.github.io/tailwind-learning-project/" target="__blank">here</a>
