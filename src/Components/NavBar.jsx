@@ -22,13 +22,13 @@ export default function () {
                 </div>
 
                 <ul className={visibility ? show : hidden}>
-                    <li className="md:mr-4 p-1 hover:text-blue-700 w-auto text-gray-500 font-sans cursor-pointer">jobs</li>
-                    <li className="md:mr-4 p-1 hover:text-blue-700 w-auto text-gray-500 font-sans cursor-pointer">companies</li>
-                    <li className="md:mr-4 p-1 hover:text-blue-700 w-auto text-gray-500 font-sans cursor-pointer">about</li>
-                    <li className="md:mr-4 p-1 hover:text-blue-700 w-auto text-gray-500 font-sans cursor-pointer">contact</li>
-                    <li className="md:mr-4 p-1 hover:text-blue-700 w-auto text-gray-500 font-sans cursor-pointer">blog</li>
-                    <li className="md:mr-4 p-1 hover:text-blue-700 w-auto text-gray-500 font-sans cursor-pointer">login</li>
-                    <li className="md:mr-4 p-1 hover:text-blue-700 w-auto text-gray-500 font-sans cursor-pointer">register</li>
+                    <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">jobs</li>
+                    <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">companies</li>
+                    <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">about</li>
+                    <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">contact</li>
+                    <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">blog</li>
+                    <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">login</li>
+                    <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">register</li>
                 </ul>
             </div>
         </nav>
