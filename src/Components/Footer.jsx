@@ -13,37 +13,37 @@ export default function () {
         <div className="m-3">
           <h3 className="mb-2 font-bold text-base text-white">Company</h3>
           <ul>
-            <li>About Us</li>
-            <li>Features</li>
-            <li>News</li>
-            <li>FAQ</li>
+            <li className="mb-2 cursor-pointer">About Us</li>
+            <li className="mb-2 cursor-pointer">Features</li>
+            <li className="mb-2 cursor-pointer">News</li>
+            <li className="mb-2 cursor-pointer">FAQ</li>
           </ul>
         </div>
 
         <div className="m-3">
           <h3 className="mb-2 font-bold text-base text-white">Resources</h3>
           <ul>
-            <li>Account</li>
-            <li>Support Center</li>
-            <li>Feedback</li>
-            <li>Contact Us</li>
+            <li className="mb-2 cursor-pointer">Account</li>
+            <li className="mb-2 cursor-pointer">Support Center</li>
+            <li className="mb-2 cursor-pointer">Feedback</li>
+            <li className="mb-2 cursor-pointer">Contact Us</li>
           </ul>
         </div>
 
         <div className="m-3">
           <h3 className="mb-2 font-bold text-base text-white">Support</h3>
           <ul>
-            <li>Events</li>
-            <li>Promo</li>
-            <li>Req Demo</li>
-            <li>Career</li>
+            <li className="mb-2 cursor-pointer">Events</li>
+            <li className="mb-2 cursor-pointer">Promo</li>
+            <li className="mb-2 cursor-pointer">Req Demo</li>
+            <li className="mb-2 cursor-pointer">Career</li>
           </ul>
         </div>
 
         <div className="m-3">
           <h3 className="mb-2 font-bold text-base text-white">Contact Info</h3>
           <a href="mailto:crushclever1@gmail.com">crushclever1@gmail.com</a>
-          <div className="flex mt-1">
+          <div className="flex mt-2">
             <a href="https://instagram.com/clever.akanimoh" className="bg-white p-1 rounded"><FaInstagram className="text-blue-700" /></a>
             <a href="https://www.facebook.com/profile.php?id=100070843014275" className="bg-white p-1 rounded ml-2"><FaFacebook className="text-blue-700" /></a>
             <a href="https://twitter.com/cleverAkanimoh3?t=-qE0RG0SidwAMXI3jhi7GQ&s=09
