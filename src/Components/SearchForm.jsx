@@ -32,7 +32,7 @@ export default function () {
 					<BsSearch className=" text-gray-600" />
 					<input
 						type="text"
-						className="border-none ml-1 mr-2 text-blue-400 rounded"
+						className="border-none ml-1 mr-1 text-blue-500 rounded"
 						name="position"
 						value={value.position}
 						placeholder="Position"
@@ -47,7 +47,7 @@ export default function () {
 					<BsHouse className=" text-gray-600" />
 					<input
 						type="text"
-						className="border-none ml-1 mr-2 text-blue-400"
+						className="border-none ml-1 mr-2 text-blue-500"
 						name="country"
 						value={value.country}
 						placeholder="Country"
@@ -66,7 +66,7 @@ export default function () {
 					<VscLocation className=" text-gray-600" />
 					<input
 						type="text"
-						className="border-none ml-1 mr-2 text-blue-400"
+						className="border-none ml-1 mr-2 text-blue-500"
 						name="location"
 						value={value.location}
 						placeholder="Location"

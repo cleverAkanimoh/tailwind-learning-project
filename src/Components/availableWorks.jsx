@@ -1,7 +1,7 @@
 import { BsClock } from "react-icons/bs"
 export default function ({ works }) {
     return (
-        <article className="p-2 pt-5 mt-5 mb-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 grid gap-6 place-items-center">
+        <article className="w-full p-2 pt-5 mt-5 mb-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 grid gap-6 place-items-center">
             {
                 works.map(work => {
                     const { id, title, location, desc, companyName, url } = work;
