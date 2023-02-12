@@ -4,9 +4,6 @@ import { VscMenu } from "react-icons/vsc";
 export default function () {
     const [visibility, setVisibility] = useState(false)
 
-    const show = "mt-4 md:mt-0 md:flex justify-center items-center";
-    const hidden = "hidden md:mt-0 md:flex justify-center items-center";
-
     const toggleNavList = () => {
         setVisibility(prevState => !prevState)
     }
@@ -21,7 +18,7 @@ export default function () {
                     </button>
                 </div>
 
-                <ul className={visibility ? show : hidden}>
+                <ul className={`${visibility ? "" : "hidden"} mt-4 md:mt-0 md:flex justify-center items-center`}>
                     <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">jobs</li>
                     <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">companies</li>
                     <li className="md:mr-4 p-1 hover:text-sky-600 w-auto text-gray-500 font-sans cursor-pointer">about</li>
