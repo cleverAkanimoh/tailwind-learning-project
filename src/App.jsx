@@ -2,12 +2,14 @@ import Footer from "./Components/Footer";
 import MiddleContent from "./Components/MiddleContent";
 import NavBar from "./Components/NavBar";
 
-export default function App() {
+export default function () {
   return (
-    <main className="w-full flex flex-col items-center justify-center">
-      <NavBar />
-      <MiddleContent />
-      <Footer />
+    <main className="grid place-items-center">
+      <div>
+        <NavBar />
+        <MiddleContent />
+        <Footer />
+      </div>
     </main>
   )
 }
