@@ -5,8 +5,8 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    container: {
-      center: true,
+    fontFamily: {
+      sans : ['Poppins',"sans-serif"]
     },
     extend: {},
   },
