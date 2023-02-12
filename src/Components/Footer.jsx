@@ -2,7 +2,7 @@ import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa"
 
 export default function () {
   return (
-    <footer className="w-full border grid place-items-center p-2 sm:pt-6 sm:pb-6 text-blue-300 text-sm">
+    <footer className="w-full grid place-items-center p-1 sm:pt-6 sm:pb-6 text-blue-300 text-sm">
       <div className="w-full md:w-11/12 xl:w-10/12 bg-blue-800 rounded grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 p-8">
         <div className="m-3">
           <h3 className="mb-2 lg:text-3

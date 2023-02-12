@@ -1,6 +1,6 @@
 export default function() {
     return (
-        <article className="w-full grid place-items-center">
+        <article className="w-full grid place-items-center mb-8 mt-8">
             <div className="w-full bg-gray-200 bg-opacity-75 p-5 md:p-14 flex flex-col md:flex-row md:justify-between sm:w-full lg:w-full items-center justify-center rounded">
                 <div>
                     <h2 className="font-extrabold sm:text-lg md:text-xl text-blue-600">Ready to switch a career?</h2>

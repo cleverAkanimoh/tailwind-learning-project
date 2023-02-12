@@ -26,10 +26,10 @@ export default function () {
 	}
 
 	return (
-		<article className="w-full mt-4 lg:p-10 p-5 bg-gray-200 bg-opacity-50 rounded">
-			<div className="bg-white bg-opacity-25 lg:justify-between p-3 md:p-3 lg:p-4 md:flex-row flex flex-col items-center justify-center rounded">
+		<article className="w-full mt-2 lg:p-10 p-5 bg-gray-200 bg-opacity-50 rounded">
+			<div className="bg-white bg-opacity-25 p-2 md:flex-row flex flex-col items-center justify-center rounded">
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
-					<BsSearch className=" text-gray-600" />
+					<BsSearch className="text-gray-500" />
 					<input
 						type="text"
 						className="border-none ml-1 mr-1 text-blue-500 rounded"
@@ -44,7 +44,7 @@ export default function () {
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
-					<BsHouse className=" text-gray-600" />
+					<BsHouse className=" text-gray-500" />
 					<input
 						type="text"
 						className="border-none ml-1 mr-2 text-blue-500"
@@ -56,14 +56,14 @@ export default function () {
 					<button
 						onClick={clearAllInputValue}
 						id="country"
-						className="cursor-pointer text-gray-600"
+						className="cursor-pointer text-gray-500"
 					>
 						<BsXCircle />
 					</button>
 				</div>
 
 				<div className="flex items-center mb-4 md:mb-0 md:mr-5">
-					<VscLocation className=" text-gray-600" />
+					<VscLocation className=" text-gray-500" />
 					<input
 						type="text"
 						className="border-none ml-1 mr-2 text-blue-500"
@@ -75,7 +75,7 @@ export default function () {
 					<button
 						onClick={clearAllInputValue}
 						id="location"
-						className="cursor-pointer text-gray-600">
+						className="cursor-pointer text-gray-500">
 						<BsXCircle />
 					</button>
 				</div>

@@ -4,8 +4,8 @@ import NavBar from "./Components/NavBar";
 
 export default function () {
   return (
-    <main className="grid place-items-center">
-      <div>
+    <main className="grid place-items-center w-full">
+      <div className="w-full">
         <NavBar />
         <MiddleContent />
         <Footer />
